@@ -1,6 +1,0 @@
-0-black
-1-blue
-2-green
-3-magenta
-4-pink
-5-red

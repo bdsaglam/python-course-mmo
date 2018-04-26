@@ -1,5 +1,0 @@
-The first line
-The second line
-The third line
-The fourth line
-A new line appended
