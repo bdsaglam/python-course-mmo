@@ -44,4 +44,4 @@
 ## Week 9
 
 * Pandas (Notes: https://github.com/jakevdp/PythonDataScienceHandbook)
-* PyQT
+* PyQT (Notes: http://zetcode.com/gui/pyqt5/)
