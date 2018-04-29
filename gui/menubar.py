@@ -1,5 +1,5 @@
 import sys
-from PyQt5.QtWidgets import QMainWindow, QAction, qApp, QApplication, QMenuBar
+from PyQt5.QtWidgets import QMainWindow, QAction, qApp, QApplication, QMenuBar, qApp
 from PyQt5.QtGui import QIcon
 
 
@@ -19,7 +19,7 @@ class Example(QMainWindow):
         menubar = self.menuBar()
         menubar.setNativeMenuBar(False)  # required for OSX
         fileMenu = menubar.addMenu('&File')
-        fileMenu.addAction(exitAction)
+        file Menu.addAction(exitAction)
 
         self.setGeometry(300, 300, 300, 200)
         self.setWindowTitle('Menubar')

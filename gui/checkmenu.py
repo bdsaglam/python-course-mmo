@@ -41,7 +41,6 @@ class Example(QMainWindow):
         self.show()
 
     def toggleStatusbar(self, state):
-
         if state:
             self.statusbar.show()
         else:
