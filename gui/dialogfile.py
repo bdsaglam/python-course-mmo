@@ -45,12 +45,13 @@ class Example(QMainWindow):
         self.show()
 
     def showDialog(self):
-        filename, filefilter = QFileDialog.getOpenFileName(self, 'Open file', '/home')
+        filename, filefilter = QFileDialog.getOpenFileName(self, 'Open file', '.')
 
         if filename:
             with open(filename, 'r') as f:
                 data = f.read()
                 self.textEdit.setText(data)
+                print(self.textEdit.toPlainText())
 
 
 if __name__ == '__main__':

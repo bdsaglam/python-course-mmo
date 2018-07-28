@@ -5,17 +5,17 @@
 * [Layout management in PyQt5](http://zetcode.com/gui/pyqt5/layout/)
 
 simple
-icon
-tooltip
-quitbutton
-msgbox
+icon*
+tooltip*
+quitbutton*
+msgbox*
 center-window
 statusbar
 menubar
 checkmenu
 contextmenu
 mainwindow
-absolute
+absolute*
 box
 calculator
 review
